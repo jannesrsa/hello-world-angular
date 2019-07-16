@@ -1,0 +1,10 @@
+.myDiv {
+  width: 100%;
+  height: 200px;
+  background: url('../assets/images/banner.png') no-repeat center center;
+}
+
+.myRow {
+    width: 100%;
+    height: 100px;
+  }
