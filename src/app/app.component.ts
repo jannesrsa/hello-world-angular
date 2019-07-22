@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hello-world';
+  engine = "fast";
+
+  constructor() {
+  }
+
+  ngOnInit() {
+  }
+
+  start() {
+    alert('Engine started: ' + this.engine);
+  }
+
+  stop() {
+    alert('Engine stopped: ' + this.engine);
+  }
 }
