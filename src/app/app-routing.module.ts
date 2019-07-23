@@ -10,7 +10,7 @@ import { ServiceTypesModule } from './service-types/service-types.module';
       { path: 'createsmartobjects', component: ServiceTypesComponent },
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', redirectTo: 'welcome', pathMatch: 'full' },
-    ]),
+    ])
   ]
 })
 export class AppRoutingModule { }
