@@ -4,12 +4,13 @@ import { BootstrapImagesComponent } from './bootstrap-images/bootstrap-images.co
 import { BootstrapTrainingRoutingModule } from './bootstrap-training-routing.module';
 import { RouterModule } from '@angular/router';
 import { BootstrapCardsComponent } from './bootstrap-cards/bootstrap-cards.component';
-
-
+import { BootstrapTablesComponent } from './bootstrap-tables/bootstrap-tables.component';
 
 @NgModule({
-  declarations: [BootstrapImagesComponent,
-    BootstrapCardsComponent
+  declarations: [
+    BootstrapImagesComponent,
+    BootstrapCardsComponent,
+    BootstrapTablesComponent
   ],
   imports: [
     CommonModule,
