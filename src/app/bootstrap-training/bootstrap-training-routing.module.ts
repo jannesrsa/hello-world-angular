@@ -6,7 +6,7 @@ import { BootstrapImagesComponent } from './bootstrap-images/bootstrap-images.co
   declarations: [],
   imports: [
     RouterModule.forChild([
-      { path: 'bootstraptraining', component: BootstrapImagesComponent },
+      { path: 'bootstrapimages', component: BootstrapImagesComponent },
     ])
   ],
   exports: [RouterModule]

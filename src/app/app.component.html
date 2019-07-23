@@ -1,8 +1,20 @@
 <nav class='navbar navbar-expand navbar-light bg-light'>
   <a class='navbar-brand'>{{pageTitle}}</a>
   <ul class='nav nav-pills'>
-    <li><a class='nav-link' [routerLink]="['/createsmartobjects']">Create SmartObject</a></li>
-    <li><a class='nav-link' [routerLink]="['/bootstraptraining']">Bootstrap Training</a></li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li><a class='nav-link' [routerLink]="['/createsmartobjects']">Create SmartObject</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Bootstrap Training</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" [routerLink]="['/bootstrapimages']">Images</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
   </ul>
 </nav>
 <div class='container'>
