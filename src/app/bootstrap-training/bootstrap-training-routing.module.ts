@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 import { BootstrapImagesComponent } from './bootstrap-images/bootstrap-images.component';
 import { BootstrapCardsComponent } from './bootstrap-cards/bootstrap-cards.component';
 import { BootstrapTablesComponent } from './bootstrap-tables/bootstrap-tables.component';
+import { BootstrapFormsComponent } from './bootstrap-forms/bootstrap-forms.component';
 
 @NgModule({
   declarations: [],
@@ -11,6 +12,7 @@ import { BootstrapTablesComponent } from './bootstrap-tables/bootstrap-tables.co
       { path: 'bootstrapimages', component: BootstrapImagesComponent },
       { path: 'bootstrapcards', component: BootstrapCardsComponent },
       { path: 'bootstraptables', component: BootstrapTablesComponent },
+      { path: 'bootstrapforms', component: BootstrapFormsComponent },
     ])
   ]
 })
