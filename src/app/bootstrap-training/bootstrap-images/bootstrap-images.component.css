@@ -1,3 +1,7 @@
 .imgDiv img {
-  /* width: 200px; */
+  width: 200px;
+}
+
+.imgBunny {
+  width: 100px;
 }
