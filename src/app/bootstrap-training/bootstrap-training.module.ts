@@ -6,13 +6,15 @@ import { RouterModule } from '@angular/router';
 import { BootstrapCardsComponent } from './bootstrap-cards/bootstrap-cards.component';
 import { BootstrapTablesComponent } from './bootstrap-tables/bootstrap-tables.component';
 import { BootstrapFormsComponent } from './bootstrap-forms/bootstrap-forms.component';
+import { BootstrapJsComponent } from './bootstrap-js/bootstrap-js.component';
 
 @NgModule({
   declarations: [
     BootstrapImagesComponent,
     BootstrapCardsComponent,
     BootstrapTablesComponent,
-    BootstrapFormsComponent
+    BootstrapFormsComponent,
+    BootstrapJsComponent
   ],
   imports: [
     CommonModule,

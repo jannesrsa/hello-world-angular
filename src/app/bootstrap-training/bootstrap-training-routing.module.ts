@@ -4,6 +4,7 @@ import { BootstrapImagesComponent } from './bootstrap-images/bootstrap-images.co
 import { BootstrapCardsComponent } from './bootstrap-cards/bootstrap-cards.component';
 import { BootstrapTablesComponent } from './bootstrap-tables/bootstrap-tables.component';
 import { BootstrapFormsComponent } from './bootstrap-forms/bootstrap-forms.component';
+import { BootstrapJsComponent } from './bootstrap-js/bootstrap-js.component';
 
 @NgModule({
   declarations: [],
@@ -13,6 +14,7 @@ import { BootstrapFormsComponent } from './bootstrap-forms/bootstrap-forms.compo
       { path: 'bootstrapcards', component: BootstrapCardsComponent },
       { path: 'bootstraptables', component: BootstrapTablesComponent },
       { path: 'bootstrapforms', component: BootstrapFormsComponent },
+      { path: 'bootstrapjs', component: BootstrapJsComponent },
     ])
   ]
 })
