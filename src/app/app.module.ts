@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BootstrapTrainingModule } from './bootstrap-training/bootstrap-training.module';
+import { JavascriptTrainingModule } from './javascript-training/javascript-training.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BootstrapTrainingModule } from './bootstrap-training/bootstrap-training
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    BootstrapTrainingModule
+    BootstrapTrainingModule,
+    JavascriptTrainingModule
   ],
   bootstrap: [AppComponent]
 })
