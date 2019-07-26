@@ -25,11 +25,10 @@ export class JavascriptTrainingComponent implements OnInit {
   }
 
   mousyover() {
-    document.getElementById('demo').style.color = 'black';
+    document.getElementById('demo').style.color = 'yellow';
   }
 
   mousyleave() {
-
     if (document.getElementById('demo').style.color === 'blue') {
       document.getElementById('demo').style.color = 'red';
     } else {
