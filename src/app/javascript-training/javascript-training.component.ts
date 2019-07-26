@@ -12,8 +12,28 @@ export class JavascriptTrainingComponent implements OnInit {
   ngOnInit() {
   }
 
-}
+  pressButton(): void {
+    let a: number;
+    let b: number;
+    let c: number;
 
-function test() {
-  document.getElementById("demo").style.display = "block";
+    a = 5;
+    b = 6;
+    c = a + b;
+
+    document.getElementById('demo').innerHTML = c.toString();
+  }
+
+  mousyover() {
+    document.getElementById('demo').style.color = 'black';
+  }
+
+  mousyleave() {
+
+    if (document.getElementById('demo').style.color === 'blue') {
+      document.getElementById('demo').style.color = 'red';
+    } else {
+      document.getElementById('demo').style.color = 'blue';
+    }
+  }
 }
