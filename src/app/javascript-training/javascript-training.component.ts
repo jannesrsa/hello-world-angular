@@ -13,3 +13,7 @@ export class JavascriptTrainingComponent implements OnInit {
   }
 
 }
+
+function test() {
+  document.getElementById("demo").style.display = "block";
+}
